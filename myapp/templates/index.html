@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        
+        <a href="#" id="link"><b>BR</b> Architects</a>
+        <a href="#" class="link">Projects</a>
+        <a href="#" class="link">About</a>
+        <a href="#" class="link">Contact</a>
+    </head>
+
+    <img src="{% static 'images/rasm1.png' %}" alt=" bu yerda rasm bor">
+    <h1>Projects</h1>
+    <img src="{% static 'images/rasm2.png' %}" alt="bu yerda rasm2 bor">
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    <span>
+        <section>
+        <img src="{% static 'images/rasm3.png' %}" alt="">
+        <h3>Jhon Done</h3>
+        <h3>CEO & Founder</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. <br>
+            Suspendisse sodales pellentesque elementum.</p>
+    </section>
+    </span>
+    <span>
+    <section class="doe">
+        <img src="{% static 'images/rasm4.png' %}" alt="">
+        <h3>Jane Doe</h3>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. <br>
+            Suspendisse sodales pellentesque elementum.</p>
+    </section>
+    </span>
+    <span class="doe">
+        <img src="{% static 'images/rasm5.png' %}" alt="">
+        <h3>Mike Ross</h3>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. <br>
+            Suspendisse sodales pellentesque elementum.</p>
+    </span>
+    <h1>Contact</h1>
+    <p>Lets get in touch and talk about your next project.</p>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name"> <br><br>
+
+    <label for="email">Emali</label>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="text">Comment</label>
+    <textarea name="text" id="text" cols="100" rows="1"></textarea> <br><br>
+
+    <label for="submit"></label>
+    <input type="submit" name="Send message" id="submit">
+</body>
+</html>
